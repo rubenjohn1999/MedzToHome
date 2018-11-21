@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	background: #eeeeee;
+	color: #111;
+	font-family: 'Lato';
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.info-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.medicine-image-container {
+	display: inline-block;
+	width: 45%;
+	padding: 20px 40px;
+}
+
+.medicine-text-container {
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	width: 45%;
+}
+
+.medicine-text-container h2,
+.medicine-text-container h3 {
+	font-weight: 400;
+}
+
+input[name="quantity"] {
+	width: 35px;
+	margin: 5px 10px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	border: 1px solid #222;
+}
+
+.medicine-image {
+	max-width: 400px;
+	max-width: 300px;
+}
+
+pre {
+	font-size: 18px;
+	/* font-family: "Cambria", Times, serif; */
+	font-style: italic;
+}
+
+input[type=submit] {
+	border: 0;
+	border-radius: 5px;
+	background-color: green;
+	padding: 14px 20px;
+	transition: 0.5s all ease;
+}
+
+.order-button {
+	color: #ddd;
+	font-size: 20px;
+}
+
+.order-button:hover {
+	cursor: pointer;
+	background: darkgreen;
+}
+
+.accordion {
+	background: white;
+	/* color: #444; */
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: 10px;
+	text-align: left;
+	outline: none;
+	font-size: 28px;
+	transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+	background-color: #ccc;
+}
+
+.accordion::before {
+	content: '\002B';
+	font-weight: bold;
+	/* float: left; */
+	border: 5px;
+	margin-left: 5px;
+}
+
+.active::before {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.disclaimer {
+	font-size: 20px;
+	color: #dd2233
+}

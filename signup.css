@@ -1,0 +1,204 @@
+body {
+    font-family: 'Lato';
+    background: rgb(196, 229, 209);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(4, 7, 41);
+    font-family: Helvetica;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=date],
+input[type=number] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #f1f1f1;
+}
+
+label {
+    font-weight: 600
+}
+
+input {
+    border-radius: 5px;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.signup-h {
+    text-align: center;
+    color: #c33;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: 'Lato';
+}
+
+.button1 {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 20px;
+    border-radius: 10% 40%/20% 75%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    float: right;
+    cursor: pointer;
+    border-right: 10px;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-wrapper>* {
+    flex: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    /* float: left; */
+    /* width: 50%; */
+    width: 20%;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display: none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 12px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+}
+
+/* The Modal (background) */
+.modal-content {
+    width: 70%;
+    /* Full width */
+    /* height: 100%; */
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background: #8ec8cfee
+        /* padding-top: 50px; */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: rgba(143, 189, 192, 0.466);
+    border-radius: 5px;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid rgb(15, 14, 14);
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+.container1 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 0 10px 0;
+}
+
+label[for="Gender"] {
+    padding: 0 0 5px 0;
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+button>a {
+    display: flex;
+    justify-content: center;
+}

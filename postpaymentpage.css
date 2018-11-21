@@ -1,0 +1,41 @@
+.cong {
+    color: #a72121
+}
+
+.celebrate {
+    float: right;
+    text-align: center;
+    margin: 24px 0 12px 0;
+    width: 18%;
+}
+
+.text_1 {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 22px;
+
+}
+
+p {
+    font-family: 'Lato';
+    padding: 5px 20px 15px 20px;
+}
+
+.text_inside {
+    padding: 5px 20px 15px 20px;
+}
+
+.contact_button {
+    background-color: rgb(56, 145, 111);
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 20%;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 17px;
+    align-content: center;
+}

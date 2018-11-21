@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-size: 100%;
+}
+
+a {
+    text-decoration: underline;
+    color: inherit;
+    font-style: italic;
+}
+
+#nav>nav>a {
+    color: #fff;
+    padding: 10px;
+}
+
+div#offers div {
+    width: 300px;
+    border: 2px solid rgb(114, 114, 114);
+    padding: 10px 20px;
+    color: palegreen;
+    background-color: #224;
+    border-radius: 5px;
+}
+
+#offers {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+#offers>a {
+    margin: 10px;
+}
+
+#offers>a>div {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}

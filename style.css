@@ -1,0 +1,52 @@
+body {
+	margin: 0;
+	background: #eeeeee;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-heading {
+	text-align: center;
+	font-size: 42px;
+	font-family: 'Cambria';
+	color: #224;
+	padding: 10px 10px 5px 10px;
+	margin: 0;
+}
+
+.site-nav {
+	background: rgb(136, 68, 68);
+}
+
+.site-nav>ul {
+	list-style-type: none;
+}
+
+.site-nav>ul>li {
+	display: inline-block;
+	padding: 10px 20px;
+	margin: 15px;
+	background: #448;
+	color: #d7d0c5;
+	border-radius: 50000px;
+}
+
+.info-container {}
+
+.medicine-image-container {
+	display: inline-block;
+	width: 45%;
+	padding: 20px 40px;
+}
+
+.medicine-text-container {
+	display: inline-block;
+	width: 45%;
+}
+
+.medicine-image {
+	width: 500px;
+}

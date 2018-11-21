@@ -1,0 +1,87 @@
+body {
+    font-family: Lato;
+    background-color: rgb(171, 235, 173);
+}
+
+/* Full-width input fields */
+.container>h1 {
+    margin-left: 45%;
+}
+
+.container>label {
+    margin-left: 45%;
+}
+
+.container>input {
+    width: 40%;
+    margin: 20px;
+    margin-left: 30%;
+    padding: 12px 20px;
+    margin-top: 8px;
+    display: inline-block;
+    border: 1px solid rgb(180, 236, 175);
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    align-content: center;
+    margin-left: 30%;
+    /* align-self: center; */
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    /* width: ; */
+    padding: 15px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    padding: 20px;
+}
+
+img.avatar {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+    align-content: center;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    /* background-color: #ced118; */
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    width: 50%;
+    /* Could be more or less, depending on screen size */
+    height: 69%;
+    background-color: rgb(140, 192, 192);
+    background-size: cover;
+    background-position: left;
+    border: 2px solid rgb(22, 24, 22)
+}
